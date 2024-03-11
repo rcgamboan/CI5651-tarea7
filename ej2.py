@@ -141,7 +141,6 @@ if __name__ == "__main__":
 		capa = convexHull(list(points), len(points))
 		# No se pudo formar una capa convexa
 		if not capa:
-			print("F")
 			break
 		
 		for p in capa:
